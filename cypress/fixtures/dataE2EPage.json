@@ -1,0 +1,8 @@
+{
+  "username": "rahulshettyacademy",
+  "password": "learning",
+  "defaultProduct": "Nokia Edge",
+  "indiaCountry":"India",
+  "expectedList":["Nokia Edge", "Samsung Note 8"],
+  "expectedList2":["iphone X", "Blackberry"]
+}

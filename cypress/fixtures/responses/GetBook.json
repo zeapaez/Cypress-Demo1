@@ -1,0 +1,52 @@
+[
+    {
+        "book_name": "Stock Trading - Mock data",
+        "isbn": "DLPOL",
+        "aisle": "131"
+    },
+    {
+        "book_name": "Learn Appium Automation with Java 1",
+        "isbn": "RS274",
+        "aisle": "227564"
+    },
+    {
+        "book_name": "Learn Appium Automation with Java 2",
+        "isbn": "RS802",
+        "aisle": "227564"
+    },
+    {
+        "book_name": "Learn Appium Automation with Java 3",
+        "isbn": "RS242",
+        "aisle": "227564"
+    },
+    {
+        "book_name": "Learn Appium Automation with Java 4",
+        "isbn": "RS661",
+        "aisle": "227564"
+    },
+    {
+        "book_name": "Learn Appium Automation with Java 5",
+        "isbn": "RS619",
+        "aisle": "227564"
+    },
+    {
+        "book_name": "Learn Appium Automation with Java 6",
+        "isbn": "RS536",
+        "aisle": "227564"
+    },
+    {
+        "book_name": "Learn Appium Automation with Java 7",
+        "isbn": "RS315",
+        "aisle": "227564"
+    },
+    {
+        "book_name": "Learn Appium Automation with Java 8",
+        "isbn": "RS718",
+        "aisle": "227564"
+    },
+    {
+        "book_name": "Learn Appium Automation with Java 9",
+        "isbn": "RS437",
+        "aisle": "227564"
+    }
+]

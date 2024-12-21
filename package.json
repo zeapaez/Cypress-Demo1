@@ -1,0 +1,46 @@
+{
+  "name": "cypressautomation1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cyopen": "npx cypress open",
+    "cy:run": "cypress run",
+    "Chrome_E2E": "cypress run --browser chrome",
+    "Edge_E2E": "cypress run --browser edge",
+    "e2e:functional": "cypress run 'cypress/e2e/functional/*.cy.js'",
+    "e2e:ui:edge": "cypress run -b edge 'cypress/e2e/functional/*.cy.js'",
+    "e2e:ui:chrome": "cypress run --browser chrome 'cypress/e2e/functional/*.cy.js'",
+    "open:dev": "cypress open --config-file cypress/config/cypress.dev.config.js",
+    "open:qa": "cypress open --config-file cypress/config/cypress.qa.config.js",
+    "open:uat": "cypress open --config-file cypress/config/cypress.uat.config.js",
+    "open:prod": "cypress open --config-file cypress/config/cypress.prod.config.js",
+    "DEV_E2E": "cypress run --spec cypress/e2e/functional/EnvironmentsTesting_OnlyExecWithEnvFiles.cy.js --config-file cypress/config/cypress.dev.config.js",
+    "QA_E2E": "cypress run --spec cypress/e2e/functional/EnvironmentsTesting_OnlyExecWithEnvFiles.cy.js --config-file cypress/config/cypress.qa.config.js",
+    "UAT_E2E": "cypress run --spec cypress/e2e/functional/EnvironmentsTesting_OnlyExecWithEnvFiles.cy.js --config-file cypress/config/cypress.uat.config.js",
+    "PROD_E2E": "cypress run --spec cypress/e2e/functional/EnvironmentsTesting_OnlyExecWithEnvFiles.cy.js --config-file cypress/config/cypress.prod.config.js"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "cypress/reports/cucumberReports/result.json"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.16.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "multiple-cucumber-html-reporter": "^3.8.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.3",
+    "@cypress/browserify-preprocessor": "latest",
+    "convert-excel-to-json": "^1.7.0",
+    "exceljs": "^4.4.0",
+    "neat-csv": "^5.1.0"
+  }
+}

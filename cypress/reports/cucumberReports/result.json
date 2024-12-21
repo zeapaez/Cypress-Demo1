@@ -1,0 +1,556 @@
+[
+  {
+    "description": "    As user I want to add item to the cart",
+    "elements": [
+      {
+        "description": "",
+        "id": "storepage-test-cases;\"add-items-to-the-cart:-nokia-edge,-samsung-note-8\"",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "\"Add Items to the cart: Nokia Edge, Samsung Note 8\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I go to the Store Login StorePage",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I login to the app",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 746000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should see the app homepage",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I add items to the cart: Nokia Edge, Samsung Note 8",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I validate the total price of the items and checkout",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I choose India contry and submit",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5557000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see the Alert message that confirm the order",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@defaultCommandTimeout(10000)",
+            "line": 1
+          },
+          {
+            "name": "@Smoke",
+            "line": 5
+          },
+          {
+            "name": "@Regression",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "storepage-test-cases;\"add-items-to-the-cart:-iphone-x,-blackberry\"",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "\"Add Items to the cart: iphone X, Blackberry\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I go to the Store Login StorePage",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 955000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I login to the app",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 675000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I should see the app homepage",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2433000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I add items to the cart: iphone X, Blackberry",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I validate the total price of the items and checkout",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I choose India contry and submit",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5566000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should see the Alert message that confirm the order",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@defaultCommandTimeout(10000)",
+            "line": 1
+          },
+          {
+            "name": "@Smoke",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "storepage-test-cases;\"add-items-to-the-cart-with-credentials-data-table\"",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "\"Add Items to the cart with Credentials Data Table\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "I go to the Store Login StorePage",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 898000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "rahulshettyacademy",
+                      "learning"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I login to the app with the following credentials",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I should see the app homepage",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I add items to the cart: iphone X, Blackberry",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 368000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I validate the total price of the items and checkout",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I choose India contry and submit",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I should see the Alert message that confirm the order",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@defaultCommandTimeout(10000)",
+            "line": 1
+          },
+          {
+            "name": "@datatable",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "storepage-test-cases;\"add-items-to-the-cart-with-several-devices-on-data-table\"",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "\"Add Items to the cart with several Devices on Data Table\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "I go to the Store Login StorePage",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 861000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "rahulshettyacademy",
+                      "learning"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I login to the app with the following credentials",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 710000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I should see the app homepage",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2965000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "deviceName"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "iphone X"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Blackberry"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I add the following devices to the cart",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 405000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I validate the total price of the items and checkout",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I choose India contry and submit",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5576000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I should see the Alert message that confirm the order",
+            "match": {
+              "location": "../e2e/BDD/StorePage/StorePageSteps.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@defaultCommandTimeout(10000)",
+            "line": 1
+          },
+          {
+            "name": "@Smoke",
+            "line": 38
+          },
+          {
+            "name": "@Regression",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "storepage-test-cases",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "StorePage Test cases",
+    "tags": [
+      {
+        "name": "@defaultCommandTimeout(10000)",
+        "line": 1
+      }
+    ],
+    "uri": "cypress\\e2e\\BDD\\StorePage.feature"
+  }
+]
