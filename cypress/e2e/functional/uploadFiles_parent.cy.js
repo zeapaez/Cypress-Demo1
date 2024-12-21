@@ -1,5 +1,5 @@
 describe('Upload files', () => {
-    it.skip('Upload files test - selectFile', () => {
+    it('Upload files test - selectFile', () => {
         const FilePath = Cypress.config('fileServerFolder') + '\\cypress\\downloads\\download.xlsx'
         cy.visit('https://rahulshettyacademy.com/upload-download-test/index.html')
         cy.get('#downloadButton').click()
